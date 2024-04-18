@@ -329,3 +329,166 @@ body {
   font-size: 26px;
   margin-left: 20px;
 }
+.menu {
+  background-image: url(img/menu-item1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.menu-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  padding-top: 98px;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 138px;
+}
+
+.menu-item {
+  background-color: #fff;
+  text-align: center;
+  width: 33%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+
+  margin-right: 20px;
+}
+
+.menu-text {
+  font-family: "Tinos", serif;
+  font-size: 26px;
+  padding-top: 16px;
+  padding-bottom: 17px;
+}
+
+.menu-subtext {
+  font-size: 16px;
+}
+
+.menu-btn {
+  background-color: #d67e34;
+  text-decoration: none;
+  padding: 14px 67px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  box-shadow: 5px 5px 10px 0px #00000040;
+}
+
+.menu-button {
+  margin-top: 20px;
+}
+
+.price-image {
+  position: absolute;
+  bottom: 0;
+  right: 32px;
+}
+
+.menu-image {
+  position: relative;
+}
+
+.price-420 {
+  position: absolute;
+  bottom: 32px;
+  right: 56px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+}
+
+.coment {
+  background-color: #e5e5e5;
+  padding-top: 104px;
+  padding-bottom: 139px;
+}
+
+.coment-text {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.coment-img {
+  border-radius: 50px;
+}
+
+.coment-image {
+  text-align: center;
+}
+
+.coment-type {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.coment-name {
+  padding-top: 9px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.galery-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 60px;
+}
+
+.galery-title span {
+  color: #d67e34;
+}
+
+.galery-content {
+  display: flex;
+  justify-content: center;
+}
+
+.galery-left {
+  margin-right: 20px;
+}
+
+.galery-down,
+.galery-up {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cook {
+  padding-bottom: 100px;
+}
+
+.cook-title {
+  font-family: "Tinos", serif;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.cook-title span {
+  color: #d67e34;
+}
+
+.cook-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  background-color: #000;
+  padding: 50px 0px;
+  color: #fff;
+  text-align: center;
+}
