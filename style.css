@@ -503,16 +503,27 @@ body {
   display: none;
 }
 
+.block {
+  display: block;
+}
+
+.burger-slide {
+  position: absolute;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.disp {
+  display: none;
+}
+
 @media (max-width: 1500px) {
   .galery-content {
     display: block;
-  }
-
-  .header-title {
-    margin-top: auto;
-    font-size: 33px;
-    display: block;
-    margin-right: 300px;
   }
 
   .img-gal,
@@ -546,10 +557,10 @@ body {
     position: static;
   }
 
-  /* .header-suptitle:before,
+  .header-suptitle:before,
   .header-suptitle:after {
     content: none;
-  } */
+  }
 
   .cook-content {
     display: block;
@@ -587,14 +598,9 @@ body {
   }
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1300px) {
   .burger-menu {
     display: block;
-  }
-
-  .header-suptitle:before,
-  .header-suptitle:after {
-    content: none;
   }
 
   .nav,
@@ -613,7 +619,7 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   .cards-holder {
     display: block;
   }
