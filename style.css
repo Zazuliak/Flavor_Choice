@@ -494,7 +494,16 @@ body {
   color: #fff;
   text-align: center;
 }
+.footerr {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 
+  /* justify-content: space-between;
+  align-items: center; */
+  column-gap: 6%;
+  margin-left: 2%;
+}
 .menu-img {
   width: 90%;
 }
@@ -519,6 +528,44 @@ button {
 
 .disp {
   display: none;
+}
+.infa {
+  text-align: left;
+
+  width: 30%;
+}
+.contact {
+  text-align: center;
+  width: 30%;
+}
+.contactt {
+  text-align: left;
+  width: 30%;
+}
+.mapa {
+  text-align: left;
+
+  width: 20%;
+}
+
+@media (max-width: 1050px) {
+  .footer {
+    font-size: 14px;
+  }
+  .none {
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  .footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 1500px) {
