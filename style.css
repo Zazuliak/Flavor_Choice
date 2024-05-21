@@ -530,6 +530,7 @@ button {
   display: none;
 }
 .infa {
+  margin-top: -15px;
   text-align: left;
 
   width: 30%;
@@ -547,7 +548,12 @@ button {
 
   width: 20%;
 }
-
+.hhh {
+  margin-top: 0px;
+}
+.hh {
+  font-size: 15px;
+}
 @media (max-width: 1050px) {
   .footer {
     font-size: 14px;
@@ -557,15 +563,27 @@ button {
   }
 }
 @media (max-width: 700px) {
-  .footer {
-    font-size: 12px;
+  .infa,
+  .contact,
+  .contactt,
+  .mapa,
+  .hh {
+    text-align: center;
+    width: 100%;
+  }
+  .mapa {
+    width: 98%;
+    text-align: center;
+  }
+  .footerr {
+    display: inline-block;
   }
 }
 
 @media (max-width: 600px) {
-  .footer {
+  /* .footer {
     font-size: 10px;
-  }
+  } */
 }
 
 @media (max-width: 1500px) {
@@ -671,6 +689,21 @@ button {
     display: block;
   }
 
+  .nav-item {
+    display: block;
+    margin-top: 20px;
+
+    font-size: 12px;
+  }
+  #menu.burger-slide {
+    margin-top: 20px;
+    margin-left: -10px;
+    text-align: 10px;
+    height: 100vh;
+    width: 100vh;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
   .card {
     width: 100%;
     margin-top: 30px;
@@ -697,5 +730,101 @@ button {
 
   .number-item {
     font-size: 23px;
+  }
+}
+
+.hmenu {
+  margin-left: 40%;
+  text-align: left;
+  margin-top: -500px;
+  color: white;
+}
+.pmenu {
+  margin-top: 80px;
+  margin-right: 80%;
+  margin-left: -50%;
+}
+.menusalat {
+  margin-top: 230px;
+  text-align: center;
+}
+.salat {
+  display: flex;
+}
+.img-salat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 350px;
+  height: 200px;
+}
+
+.salat-col {
+  display: block;
+  width: 30%;
+  margin-left: 6%;
+}
+
+.salat-coll {
+  margin-right: 50px;
+}
+.us {
+  margin-left: 10%;
+  margin-top: -400px;
+  margin-right: 50%;
+  color: white;
+}
+.reservation {
+  margin-top: -500px;
+  color: white;
+}
+.reservation-h {
+  margin-left: 20%;
+}
+.reservation-p {
+  margin-left: 10%;
+  width: 30%;
+  font-size: 13px;
+}
+.reservation-b {
+  margin-top: 7%;
+  margin-left: 20%;
+}
+.reservation-r {
+  color: white;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 13px;
+}
+@media (max-width: 780px) {
+  .hmenu {
+    font-size: 13px;
+    width: 70%;
+  }
+  .menusalat {
+    margin-top: 100px;
+  }
+  .salat {
+    display: block;
+  }
+  .salat-col {
+    margin-top: 100px;
+    width: 100%;
+  }
+  .salat-coll {
+    margin-right: 100px;
+  }
+  .us {
+    margin-top: 20%;
+    font-size: 12px;
+    width: 70%;
+  }
+  .reservation-p {
+    width: 90%;
+    margin-bottom: 80px;
+  }
+  .reservation-r {
+    margin-top: 80px;
   }
 }
