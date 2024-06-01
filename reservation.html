@@ -79,21 +79,82 @@
       <div class="reservation">
         <h2 class="reservation-h">Шановний клієнте</h2>
         <p class="reservation-p">
-          Дякуємо за ваш інтерес до нашого закладу. Для того, щоб забронювати
-          столик, будь ласка, авторизуйтеся. Це допоможе нам забезпечити
-          найкращий сервіс та врахувати всі ваші побажання.
+          Дякуємо за проявлений інтерес до нашого закладу! Щоб забронювати
+          столик, будь ласка, залиште нам ваші контактні дані, щоб ми могли з
+          вами зв'язатися і підтвердити ваше бронювання. Надавши нам свої
+          контактні дані, ви допоможете нам забезпечити найкращий сервіс і
+          врахувати всі ваші побажання під час вашого візиту.
         </p>
       </div>
 
+      <!-- <div class="reservation-b">
+        <a class="button" href="#">Залишити дані</a>
+      </div> -->
       <div class="reservation-b">
-        <a class="button" href="#">Авторизуватися</a>
+        <div class="out">
+          <form id="subscription-form" action="subscribe.php" method="post">
+            <label class="labell" for="email"
+              >Введіть вашу електронну пошту:</label
+            >
+            <input type="email" id="email" name="email" required />
+            <button class="button" type="submit">Залишити дані</button>
+          </form>
+          <!-- Посилання для адміністраторів -->
+        </div>
+        <div class="adminn">
+          <a class="button" href="admin_login.php">Вхід для адміністратора</a>
+        </div>
       </div>
       <div class="reservation-r">
-        <h4>Авторизація дозволяє вам:</h4>
+        <!-- <h4>Авторизація дозволяє вам:</h4>
         <li>Переглядати та редагувати свої бронювання;</li>
         <li>Отримувати спеціальні пропозиції та знижки;</li>
-        <li>Залишати відгуки про наші послуги.</li>
+        <li>Залишати відгуки про наші послуги.</li> -->
+        <p class="pr">
+          Залишаючи свої контактні дані, ви погоджуєтеся на їх обробку
+          відповідно до нашої політики конфіденційності. Ваші дані будуть в
+          безпеці, і ми використаємо їх тільки для того, щоб зв'язатися з вами і
+          підтвердити ваше бронювання.
+        </p>
       </div>
+    </div>
+    <div class="footer">
+      <div class="footerr">
+        <div class="infa">
+          <p>
+            Дякуємо вам за довіру та можливість працювати разом. Ваша підтримка
+            допомагає нам зростати та розвиватися.
+          </p>
+          <p>
+            Ми впевнені, що разом ми досягнемо найкращих результатів та зробимо
+            важливі кроки до успіху.
+          </p>
+        </div>
+        <div class="contact">
+          <h2 class="hhh">Контакти</h2>
+          <div class="contactt">
+            <p>
+              Телефон:<span class="none">.................</span>+38098739010
+              <br />
+              Email:<span class="none">.......................</span
+              >Flavor_Ghoice123@gmail.com <br />
+              Instagram:<span class="none">...............</span>@Flavor_Ghoice
+            </p>
+          </div>
+        </div>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325519.5756062444!2d30.20305440309123!3d50.401569782321815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d27f1db00001%3A0xfda49faae685115c!2sFlavour!5e0!3m2!1sru!2sua!4v1715008187992!5m2!1sru!2sua"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <h2 class="hh">© 2024 Всі права захищені</h2>
     </div>
     <script src="app.js"></script>
   </body>
