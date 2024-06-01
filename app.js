@@ -33,22 +33,22 @@ document.getElementById('subscription-form').addEventListener('submit', function
   document.getElementById('email').value = '';
 });
 
-document.getElementById('showSubscriptionForm').addEventListener('click', function() {
-  document.getElementById('subscriptionFormContainer').style.display = 'block';
-});
+// document.getElementById('showSubscriptionForm').addEventListener('click', function() {
+//   document.getElementById('subscriptionFormContainer').style.display = 'block';
+// });
 
-document.getElementById('adminLoginLink').addEventListener('click', function(event) {
-  event.preventDefault();
-  document.getElementById('adminLoginFormContainer').style.display = 'block';
-});
+// document.getElementById('adminLoginLink').addEventListener('click', function(event) {
+//   event.preventDefault();
+//   document.getElementById('adminLoginFormContainer').style.display = 'block';
+// });
 
-document.getElementsByClassName('close')[0].addEventListener('click', function() {
-  document.getElementById('subscriptionFormContainer').style.display = 'none';
-});
+// document.getElementsByClassName('close')[0].addEventListener('click', function() {
+//   document.getElementById('subscriptionFormContainer').style.display = 'none';
+// });
 
-document.getElementsByClassName('close')[1].addEventListener('click', function() {
-  document.getElementById('adminLoginFormContainer').style.display = 'none';
-});
+// document.getElementsByClassName('close')[1].addEventListener('click', function() {
+//   document.getElementById('adminLoginFormContainer').style.display = 'none';
+// });
 
 window.onclick = function(event) {
   if (event.target == document.getElementById('subscriptionFormContainer')) {
